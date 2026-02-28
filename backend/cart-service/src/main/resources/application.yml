@@ -1,0 +1,17 @@
+server:
+  port: 8084
+
+spring:
+  application:
+    name: cart-service
+  datasource:
+    url: jdbc:postgresql://localhost:5432/cart_db
+    username: admin
+    password: password
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: validate
+  flyway:
+    enabled: true
+    baseline-on-migrate: true
