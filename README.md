@@ -25,5 +25,5 @@ This system utilizes a **Modular Monolith** approach, designed for eventual stra
 
 1. **Clone the repository**
    ```bash
-   git clone <YOUR_REPO_URL>
+   git clone https://github.com/aniketkhare07/enterprise-clothing-platform.git
    cd enterprise-clothing-platform
